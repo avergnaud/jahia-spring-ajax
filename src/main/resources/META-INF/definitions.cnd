@@ -1,0 +1,10 @@
+<catpoc = 'http://cat-amania.fr/jahia/catpoc/1.0'>
+
+[catpoc:recherche] > jnt:content, jmix:siteComponent
+
+[catpoc:element] > jnt:content, mix:title, jmix:siteComponent
+- name (string)
++ * (catpoc:imgHolder)
+
+[catpoc:imgHolder] > jnt:content, mix:title orderable
+- weakReferenceFileMimeImage (weakreference, picker[type='image'])
